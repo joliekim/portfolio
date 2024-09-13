@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+}
+
+nav .nav-links a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+/* Home Section */
+.home-section {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-section h1 {
+    font-size: 48px;
+}
+
+.home-section p {
+    font-size: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Research Section */
+.research-section {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+}
+
+.research-section ul {
+    list-style-type: square;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Publications Section */
+.publications-section {
+    padding: 60px 20px;
+}
+
+.publications-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications-section li {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
