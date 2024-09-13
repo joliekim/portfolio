@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Inter";
+    src: url('fotns/Inter-VariableFont.ttf');
+      
+  }
+
 /* General Styles */
 body {
     margin: 0;
