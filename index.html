@@ -2,85 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jolie's Portfolio</title>
-    <!-- Google Fonts Link for Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <div class="container">
+        <aside class="sidebar">
+            <h1 class="name">[Jolie Heeji Kim]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">Google Scholar</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="content">
+            <section class="intro">
+                <img src="images/profile.jpg" alt="Profile Image" class="profile-pic">
+                <p class="bio">I aim to augment learning, intelligence, and creativity by leveraging interactive media technology.</p>
+                <p class="details">I started my Masters in Industrial Design at KAIST this fall. I do research in Human-Computer Interaction, focusing on designing interactive video interfaces and intelligent video authoring tools.</p>
+            </section>
 
-    <nav>
-        <div class="logo">Jolie Kim</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+            <section class="research">
+                <h2>Research</h2>
+                <ul>
+                    <li>
+                        <span class="research-title"><li>Investigating Work Companion Robot Interactions to Enhance Work-from-Home Productivity and Experience.
+                        </em>.</li></span>
+                        <span class="research-author">Bokyung Lee, Heeji Kim. (2024)</span>
+                        <span class="journal">Archive of Design</span>
+                        <a href="https://aodr.org/_common/do.php?a=full&b=12&bidx=3779&aidx=41676">PDF</a>
+                    </li>
+                    <li>
+                        <span class="research-title">Surch: Enabling Structural Search and Comparison for Surgical Videos</span>
+                        <span class="research-author">Author Name</span>
+                        <span class="journal">Journal Name</span>
+                        <a href="#">PDF</a> | <a href="#">Video presentation</a>
+                    </li>
+                    <li>
+                        <span class="research-title">How Older Adults Use Online Videos for Learning</span>
+                        <span class="research-author">Author Name</span>
+                        <span class="journal">Journal Name</span>
+                        <a href="#">PDF</a> | <a href="#">Video presentation</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
-    <!-- Home Section -->
-    <section id="home" class="home-section">
-        <div class="home-content">
-            <h1>Welcome to My Personal Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non risus euismod, auctor justo at, pharetra nisl.</p>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, justo at condimentum ultricies, lorem eros interdum urna, eget facilisis nunc tortor non est.</p>
-        <img src="images/profile.jpg" alt="Profile Image">
-    </section>
-
-    <!-- Research Section -->
-    <section id="research" class="research-section">
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Sensing Physicality in Virtual Contexts</li>
-            <li>Physical Proxies for Virtual Entities</li>
-            <li>Swarm Robotics and Interaction Modalities</li>
-        </ul>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="publications-section">
-        <h2>Publications</h2>
-        <ul>
-            <li>Bokyung Lee, Heeji Kim. (2024). Investigating Work Companion Robot Interactions to Enhance Work-from-Home Productivity and Experience. <em>Archives of Design Research, 37(4) <a href = "https://aodr.org/_common/do.php?a=full&b=12&bidx=3779&aidx=41676">DOI : 10.15187/adr.2024.08.37.4.43</a>
-            </em>.</li>
-            <li>Doe, J., & Smith, A. (2022). Title of the Second Paper. <em>Proceedings of Dolor Sit Amet</em>.</li>
-            <li>Doe, J. (2021). Title of the Third Paper. <em>Consectetur Adipiscing</em>.</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; Last Update: Aug 2024 <br> Jolie Kim | All Rights Reserved</p>
+        <p>Contact: [jolieheejikim@kaist.ac.kr]</p>
     </footer>
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
