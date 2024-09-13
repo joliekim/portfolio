@@ -20,7 +20,7 @@ p, span, div, a, li {
 
 /* Navigation Bar */
 
-* {
+nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
