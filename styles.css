@@ -80,7 +80,7 @@ nav .nav-links a:hover {
 }
 
 .research-section ul {
-    list-style-type: square;
+    list-style-type: none;
     max-width: 600px;
     margin: 0 auto;
     text-align: left;
@@ -145,4 +145,5 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 20px;
+    font-size: 18px;
 }
