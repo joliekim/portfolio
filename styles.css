@@ -44,7 +44,7 @@ nav .nav-links a:hover {
 
 /* Home Section */
 .home-section {
-    background-image: url('background.jpg');
+    background-image: url('images/background.jpeg');
     background-size: cover;
     color: white;
     text-align: center;
