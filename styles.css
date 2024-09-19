@@ -1,29 +1,42 @@
 /* General Styles */
+@font-face {
+    font-family: 'Projekt Blackbird';
+    src: url('fonts/Projekt\ Blackbird.otf') format('otf');
+}
+
 body {
     margin: 0;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: "DM Sans", sans-serif;
     color: #333;
 }
+
+a {
+    color: #4169E1;
+  }
 
 /* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f8f8;
-    padding: 10px 20px;
+    background-color: #ffffff;
+    padding: 5px 20px;
     position: sticky;
     top: 0;
+    font-family: "DM Sans", sans-serif;
 }
 
 nav .logo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
+    color: #363636;
+    font-family: 'Projekt Blackbird', sans-serif;
 }
 
 nav .nav-links {
     list-style: none;
     display: flex;
+    font-size: 14px;
     gap: 15px;
 }
 
@@ -33,30 +46,31 @@ nav .nav-links li {
 
 nav .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #00CE93;
     padding: 8px;
 }
 
 nav .nav-links a:hover {
-    background-color: #ddd;
-    border-radius: 4px;
+    background-color: #E1EEE6;
+    border-radius: 10px;
 }
 
 /* Home Section */
 .home-section {
-    background-image: url('images/background.jpeg');
+    background-image: url('images/background.jpg');
     background-size: cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
 }
 
-.home-section h1 {
-    font-size: 48px;
+.home-section h3 {
+    font-size: 22px;
+    font-family: 'Projekt Blackbird', sans-serif;
 }
 
 .home-section p {
-    font-size: 24px;
+    font-size: 20px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -64,36 +78,41 @@ nav .nav-links a:hover {
 /* About Section */
 .about-section {
     padding: 60px 20px;
-    text-align: center;
+    text-align: left;
+    font-family: 'Projekt Blackbird', sans-serif;
 }
 
 .about-section img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-top: 20px;
 }
 
 /* Research Section */
 .research-section {
-    background-color: #f0f0f0;
+    background-color: #f2efea;
     padding: 60px 20px;
+    font-family: 'Projekt Blackbird', sans-serif;
 }
 
 .research-section ul {
-    list-style-type: none;
-    max-width: 600px;
     margin: 0 auto;
     text-align: left;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
 }
 
 /* Publications Section */
-.publications-section {
-    padding: 60px 20px;
+.publications-section h2{
+    font-family: 'Projekt Blackbird', sans-serif;
 }
 
-.publications-section ul {
-    list-style-type: none;
-    padding: 0;
+.publications-section {
+    font-family: "DM Sans", sans-serif;
+    padding: 60px 20px;
+    font-size: 14px;
+    line-height: 140%;
 }
 
 .publications-section li {
@@ -101,6 +120,11 @@ nav .nav-links a:hover {
 }
 
 /* Contact Section */
+
+.contact-section h2 {
+font-family: 'Projekt Blackbird', sans-serif;
+}
+
 .contact-section {
     background-color: #f0f0f0;
     padding: 60px 20px;
@@ -114,7 +138,7 @@ nav .nav-links a:hover {
 .contact-section label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .contact-section input,
@@ -123,7 +147,7 @@ nav .nav-links a:hover {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .contact-section button {
@@ -131,7 +155,7 @@ nav .nav-links a:hover {
     border: none;
     background-color: #333;
     color: white;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -141,9 +165,11 @@ nav .nav-links a:hover {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #808080;
     color: white;
     text-align: center;
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 150%;
 }
